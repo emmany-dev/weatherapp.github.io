@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background: url("Bg.jpg") repeat-y;
+    background: url("Bg.jpg") no-repeat;
     background-size: cover;
     color:white;
     font-family: cursive, Georgia, 'Times New Roman', Times, serif;

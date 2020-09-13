@@ -28,7 +28,9 @@ const renderWeatherData = data =>{
                     iconElm.alt = description;
                     placeElm.className = "icon";
                     docFrag.appendChild(iconElm);
-            document.getElementById('result').appendChild(docFrag);
+                    const result = document.getElementById('result');
+                    result.innerHTML="";
+                    result.appendChild(docFrag);
 
 
     }
