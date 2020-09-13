@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("Bg.jpg") repeat-y;
+    background-size: cover;
+    color:white;
+    font-family: cursive, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input{
+    padding: 1.5% 1%;
+    box-sizing: border-box;
+    border:none;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 30px;
+    transition: all .3s ease;
+    color: orange;
+}
+
+.error-message{
+    color:red;
+    border: red;
+    width: 70vw;
+    margin: auto;
+    padding: 15px;
+    margin-top: 25px;
+}
+input[type=text]{
+    width:45%;
+    margin-top: .5%;
+}
+input[type=submit]{
+    width:20%;
+    background-color: white;
+    padding: 10px 50px;
+    border: 1px solid orange;
+    margin-top: 25px;
+   
+} 
+input[type=submit]:hover{
+    background-color: orange;
+    color:white;
+    border-color: white;
+}
+header{
+    margin-top: 5%;
+}
+
+
+
+@media only screen and (max-width:500px){
+    input{
+        width:60%;
+        padding:2%;
+    }
+}
